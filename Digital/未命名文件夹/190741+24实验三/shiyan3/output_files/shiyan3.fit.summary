@@ -1,0 +1,10 @@
+I/O Assignment Analysis Status : Successful - Sun Nov 01 20:13:23 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : shiyan3
+Top-level Entity Name : Block1
+Family : Cyclone III
+Device : EP3C55F484C8
+Timing Models : Final
+Total pins : 20 / 328 ( 6 % )
+Total virtual pins : 0
+Total PLLs : 0 / 4 ( 0 % )

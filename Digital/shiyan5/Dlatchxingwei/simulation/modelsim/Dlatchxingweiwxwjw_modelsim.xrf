@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrator/Desktop/shu/shiyan5/Dlatchxingwei/Dlatchxingweiwxwjw.v
+source_file = 1, C:/Users/Administrator/Desktop/shu/shiyan5/Dlatchxingwei/Waveform.vwf
+source_file = 1, C:/Users/Administrator/Desktop/shu/shiyan5/Dlatchxingwei/db/Dlatchxingweiwxwjw.cbx.xml
+design_name = Dlatchxingweiwxwjw
+instance = comp, \Q~output , Q~output, Dlatchxingweiwxwjw, 1
+instance = comp, \D~input , D~input, Dlatchxingweiwxwjw, 1
+instance = comp, \EN~input , EN~input, Dlatchxingweiwxwjw, 1

@@ -1,0 +1,15 @@
+|wxwjwjsq
+CLRN => out[0]~reg0.ACLR
+CLRN => out[1]~reg0.ACLR
+CLRN => out[2]~reg0.ACLR
+CLRN => out[3]~reg0.ACLR
+CLK => out[0]~reg0.CLK
+CLK => out[1]~reg0.CLK
+CLK => out[2]~reg0.CLK
+CLK => out[3]~reg0.CLK
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

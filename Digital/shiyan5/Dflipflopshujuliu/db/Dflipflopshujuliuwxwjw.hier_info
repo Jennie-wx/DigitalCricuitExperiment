@@ -1,0 +1,7 @@
+|Dflipflopshujuliuwxwjw
+CLK => f4.IN0
+CLK => f3.IN1
+D => f6.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

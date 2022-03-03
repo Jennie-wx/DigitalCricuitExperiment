@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\wx19030419wjw19074104\shiyan3\simulation\qsim
+vBlock1
+Z1 !s100 Q2KT1FHAC?N^J]Q_iK`bZ2
+Z2 IVXS;?TfIIDA`^4Eb__FF@2
+Z3 Vi5gZ8G^B[P2ojSkZQUHV11
+Z4 dC:\Users\Administrator\Desktop\shu\shiyan3\simulation\qsim
+Z5 w1604233261
+Z6 8shiyan3.vo
+Z7 Fshiyan3.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|shiyan3.vo|
+Z10 o-work work -O0
+Z11 n@block1
+!i10b 1
+!s85 0
+Z12 !s108 1604233262.465000
+Z13 !s107 shiyan3.vo|
+!s101 -O0
+vBlock1_vlg_check_tst
+!i10b 1
+Z14 !s100 JXK5HldM7O5O5l;8jlFHW1
+Z15 IG`OWG]X_?^AdaCo90ijKI0
+Z16 V5X:TEG@gVKj1kE=lV1k2]3
+R4
+Z17 w1604233260
+Z18 8shiyan3.vt
+Z19 Fshiyan3.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1604233262.543000
+Z21 !s107 shiyan3.vt|
+Z22 !s90 -work|work|shiyan3.vt|
+!s101 -O0
+R10
+Z23 n@block1_vlg_check_tst
+vBlock1_vlg_sample_tst
+!i10b 1
+Z24 !s100 G=53iZWUhb6_ik13ALgKP1
+Z25 IUW2DoeHEF9gLSZzQmF;PS0
+Z26 V[HjL[giC_96@JYa?K53Pz2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@block1_vlg_sample_tst
+vBlock1_vlg_vec_tst
+!i10b 1
+!s100 6LP0C[1ne@Qke@4bcJXVe3
+IEzN@`:LjRSgKJ64<6eV=l2
+Z28 V8EbEX^g@9e0ZUXjTWSm=l2
+R4
+R17
+R18
+R19
+Z29 L0 347
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@block1_vlg_vec_tst
+vshiyan3
+Z31 IZ9T3Y75@zKmoe:3X[<Mj[3
+Z32 VjU53R5fa56V@i6NjW]6c[0
+Z33 dD:\wx19030419wjw19074104\shiyan3\simulation\qsim
+Z34 w1603779396
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z35 !s100 5PgDCnWA[;DPg^9lJBZPW0
+Z36 !s108 1603779397.009000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vshiyan3_vlg_check_tst
+Z37 IJaKAKLN4f<8VIOV1ja[UD0
+Z38 VzhHP24GDJoGDb[Fj=^mUV2
+R33
+Z39 w1603779395
+R18
+R19
+L0 63
+R8
+r1
+31
+Z40 !s108 1603779397.165000
+Z41 !s107 shiyan3.vt|
+R22
+R10
+Z42 !s100 Ejo]UK9i4MGSOj<P^fzZO2
+!i10b 1
+!s85 0
+!s101 -O0
+vshiyan3_vlg_sample_tst
+Z43 ISjmKiKiT06PC80D3Rcl=T2
+Z44 VM0=C4JmWh9Cg?o6f3GNBO1
+R33
+R39
+R18
+R19
+L0 29
+R8
+r1
+31
+R40
+R41
+R22
+R10
+Z45 !s100 EQF`Vj:GjXaDW?>RDb<Pf2
+!i10b 1
+!s85 0
+!s101 -O0
+vshiyan3_vlg_vec_tst
+Z46 I95><W3Pg?j:;A<hAG]mme3
+Z47 V1^DFcn[LJlm9QH^FaRohD0
+R33
+R39
+R18
+R19
+Z48 L0 223
+R8
+r1
+31
+R40
+R41
+R22
+R10
+Z49 !s100 l9WPUdf?CV>Tc[PcgAAYP3
+!i10b 1
+!s85 0
+!s101 -O0

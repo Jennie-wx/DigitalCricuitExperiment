@@ -1,0 +1,15 @@
+|shiyan2
+wdata[0] => Decoder0.IN3
+wdata[1] => Decoder0.IN2
+wdata[2] => Decoder0.IN1
+wdata[3] => Decoder0.IN0
+wa <= wa.DB_MAX_OUTPUT_PORT_TYPE
+wb <= wb.DB_MAX_OUTPUT_PORT_TYPE
+wc <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+wd <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+we <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+wf <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+wg <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+sel <= <GND>
+
+

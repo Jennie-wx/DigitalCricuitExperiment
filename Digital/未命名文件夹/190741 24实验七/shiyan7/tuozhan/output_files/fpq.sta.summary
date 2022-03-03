@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'shizhong'
+Slack : -4.465
+TNS   : -255.709
+
+Type  : Slow 1200mV 85C Model Setup 'fpq:inst|clk_1hz'
+Slack : -0.768
+TNS   : -1.763
+
+Type  : Slow 1200mV 85C Model Hold 'shizhong'
+Slack : -0.305
+TNS   : -0.305
+
+Type  : Slow 1200mV 85C Model Hold 'fpq:inst|clk_1hz'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'shizhong'
+Slack : -3.000
+TNS   : -102.629
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fpq:inst|clk_1hz'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 0C Model Setup 'shizhong'
+Slack : -4.196
+TNS   : -239.890
+
+Type  : Slow 1200mV 0C Model Setup 'fpq:inst|clk_1hz'
+Slack : -0.592
+TNS   : -1.336
+
+Type  : Slow 1200mV 0C Model Hold 'shizhong'
+Slack : -0.230
+TNS   : -0.230
+
+Type  : Slow 1200mV 0C Model Hold 'fpq:inst|clk_1hz'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'shizhong'
+Slack : -3.000
+TNS   : -102.629
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fpq:inst|clk_1hz'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Fast 1200mV 0C Model Setup 'shizhong'
+Slack : -1.326
+TNS   : -70.424
+
+Type  : Fast 1200mV 0C Model Setup 'fpq:inst|clk_1hz'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'shizhong'
+Slack : -0.305
+TNS   : -0.305
+
+Type  : Fast 1200mV 0C Model Hold 'fpq:inst|clk_1hz'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'shizhong'
+Slack : -3.000
+TNS   : -74.054
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fpq:inst|clk_1hz'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------

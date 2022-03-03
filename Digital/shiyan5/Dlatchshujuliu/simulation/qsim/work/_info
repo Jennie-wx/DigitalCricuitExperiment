@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\shu\shiyan5\Dlatchshujuliu\simulation\qsim
+vDlatchshujuliu
+Z1 Ii<<kJ9m0;8MdjDdmXXI;:3
+Z2 V1hLlT2M=g@Zomi@QaYG9:2
+Z3 dC:\Users\Administrator\Desktop\shu\shiyan5\Dlatchshujuliu\simulation\qsim
+Z4 w1604922556
+Z5 8Dlatchshujuliu.vo
+Z6 FDlatchshujuliu.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@dlatchshujuliu
+!i10b 1
+Z10 !s100 eD`a7HDK8z3I56=jW_^050
+!s85 0
+Z11 !s108 1604922557.626000
+Z12 !s107 Dlatchshujuliu.vo|
+Z13 !s90 -work|work|Dlatchshujuliu.vo|
+!s101 -O0
+vDlatchshujuliu_vlg_check_tst
+!i10b 1
+!s100 n]?7P]M=[SiRdHO0I4UIG0
+IUTXD_=iiDf^I^6b]z98=`3
+VEe5W3GXK>2?AQS>XQ`mXg0
+R3
+Z14 w1604922555
+Z15 8Dlatchshujuliu.vt
+Z16 FDlatchshujuliu.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1604922557.704000
+Z18 !s107 Dlatchshujuliu.vt|
+Z19 !s90 -work|work|Dlatchshujuliu.vt|
+!s101 -O0
+R8
+n@dlatchshujuliu_vlg_check_tst
+vDlatchshujuliu_vlg_sample_tst
+!i10b 1
+!s100 W9BMUBK]oZ?c5fGcYZcd83
+IAAjRE6T`MJ[n=4cV4C9]B0
+VmXGi6TDKfk9BaPCh2do9V0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@dlatchshujuliu_vlg_sample_tst
+vDlatchshujuliu_vlg_vec_tst
+!i10b 1
+!s100 nhTRY0baWFZ8z>]ief7bj2
+INfj:8;jKOabmkP8[C81L80
+VoQIkPd]CCz=GfaM@hez4G2
+R3
+R14
+R15
+R16
+L0 154
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@dlatchshujuliu_vlg_vec_tst

@@ -1,0 +1,44 @@
+module wxwjwlsd(out,clk);
+input clk;
+output [3:0]out;
+reg [3:0]out;
+reg [1:0]state;
+
+parameter s0=0,s1=1,s2=3,s3=4;
+
+reg clk_1hz;
+reg [31:0]cnt;
+always @ (posedge clk)
+ begin
+ if(cnt==32'd25_000_000)
+  begin
+  clk_1hz<=~clk_1hz;
+  cnt<='b0;
+  end
+ else 
+  begin 
+  cnt<= cnt +'b1;
+  end
+ end
+ 
+ 
+always @ (state)
+ case(state)
+ s0:out=4'b1111;
+ s1:out=4'b0111;
+ s2:out=4'b1011;
+ s3:out=4'b1101;
+ default out=4'b1111;
+ endcase
+ 
+always @ (posedge clk_1hz)
+ case(state)
+ s0:state<=s1;
+ s1:state<=s2;
+ s2:state<=s3;
+ s3:state<=s0;
+ default:state<=s0;
+ endcase
+
+endmodule
+ 

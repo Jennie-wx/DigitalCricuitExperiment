@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrator/Desktop/shu/shiyan5/Dflipflopshujuliu/Dflipflopshujuliuwxwjw.v
+source_file = 1, C:/Users/Administrator/Desktop/shu/shiyan5/Dflipflopshujuliu/Waveform.vwf
+source_file = 1, C:/Users/Administrator/Desktop/shu/shiyan5/Dflipflopshujuliu/db/Dflipflopshujuliuwxwjw.cbx.xml
+design_name = Dflipflopshujuliuwxwjw
+instance = comp, \Q~output , Q~output, Dflipflopshujuliuwxwjw, 1
+instance = comp, \CLK~input , CLK~input, Dflipflopshujuliuwxwjw, 1
+instance = comp, \D~input , D~input, Dflipflopshujuliuwxwjw, 1
+instance = comp, \f6~0 , f6~0, Dflipflopshujuliuwxwjw, 1
+instance = comp, \f3~0 , f3~0, Dflipflopshujuliuwxwjw, 1
+instance = comp, \f1~0 , f1~0, Dflipflopshujuliuwxwjw, 1

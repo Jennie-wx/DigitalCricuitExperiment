@@ -1,0 +1,78 @@
+|cs
+pin_name2[0] <= shiyan3:inst.wout[0]
+pin_name2[1] <= shiyan3:inst.wout[1]
+pin_name2[2] <= shiyan3:inst.wout[2]
+pin_name2[3] <= shiyan3:inst.wout[3]
+pin_nam2[0] => shiyan3:inst.sel[0]
+pin_nam2[1] => shiyan3:inst.sel[1]
+pin_nam2[2] => shiyan3:inst.sel[2]
+pin_name1 => inst3.IN0
+pin_name1 => Dlatchxingweiwxwjw:inst1.EN
+pin_name14 => Dlatchxingweiwxwjw:inst2.D[4]
+pin_name14 => Dlatchxingweiwxwjw:inst1.D[4]
+pin_name13 => Dlatchxingweiwxwjw:inst2.D[3]
+pin_name13 => Dlatchxingweiwxwjw:inst1.D[3]
+pin_name12 => Dlatchxingweiwxwjw:inst2.D[2]
+pin_name12 => Dlatchxingweiwxwjw:inst1.D[2]
+pin_name11 => Dlatchxingweiwxwjw:inst2.D[1]
+pin_name11 => Dlatchxingweiwxwjw:inst1.D[1]
+
+
+|cs|shiyan3:inst
+wout[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+wout[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+wout[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+wout[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => Mux0.IN8
+sel[0] => Mux1.IN8
+sel[0] => Mux2.IN8
+sel[0] => Mux3.IN8
+sel[1] => Mux0.IN7
+sel[1] => Mux1.IN7
+sel[1] => Mux2.IN7
+sel[1] => Mux3.IN7
+sel[2] => Mux0.IN6
+sel[2] => Mux1.IN6
+sel[2] => Mux2.IN6
+sel[2] => Mux3.IN6
+win2[0] => Mux3.IN10
+win2[1] => Mux2.IN10
+win2[2] => Mux1.IN10
+win2[3] => Mux0.IN10
+win1[0] => Mux3.IN9
+win1[1] => Mux2.IN9
+win1[2] => Mux1.IN9
+win1[3] => Mux0.IN9
+en => ~NO_FANOUT~
+
+
+|cs|Dlatchxingweiwxwjw:inst2
+EN => Q[1]$latch.LATCH_ENABLE
+EN => Q[2]$latch.LATCH_ENABLE
+EN => Q[3]$latch.LATCH_ENABLE
+EN => Q[4]$latch.LATCH_ENABLE
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+D[4] => Q[4]$latch.DATAIN
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cs|Dlatchxingweiwxwjw:inst1
+EN => Q[1]$latch.LATCH_ENABLE
+EN => Q[2]$latch.LATCH_ENABLE
+EN => Q[3]$latch.LATCH_ENABLE
+EN => Q[4]$latch.LATCH_ENABLE
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+D[4] => Q[4]$latch.DATAIN
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,138 @@
+$comment
+	File created using the following command:
+		vcd file Dlatchshujuliu.msim.vcd -direction
+$end
+$date
+	Mon Nov 09 19:49:18 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Dlatchshujuliu_vlg_vec_tst $end
+$var reg 1 ! D $end
+$var reg 1 " EN $end
+$var wire 1 # Q $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + Q~output_o $end
+$var wire 1 , D~input_o $end
+$var wire 1 - EN~input_o $end
+$var wire 1 . f1~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+x+
+0,
+0-
+x.
+$end
+#80000
+1!
+1,
+0$
+#110000
+1"
+1-
+1$
+0.
+1+
+1#
+#160000
+0!
+0,
+0$
+1.
+0+
+0#
+#240000
+1!
+1,
+1$
+0.
+1+
+1#
+#320000
+0!
+0,
+0$
+1.
+0+
+0#
+#400000
+1!
+1,
+1$
+0.
+1+
+1#
+#480000
+0!
+0,
+0$
+1.
+0+
+0#
+#560000
+1!
+1,
+1$
+0.
+1+
+1#
+#640000
+0!
+0,
+0$
+1.
+0+
+0#
+#720000
+1!
+1,
+1$
+0.
+1+
+1#
+#800000
+0!
+0,
+0$
+1.
+0+
+0#
+#880000
+1!
+1,
+1$
+0.
+1+
+1#
+#960000
+0!
+0,
+0$
+1.
+0+
+0#
+#1000000

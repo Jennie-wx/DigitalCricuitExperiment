@@ -1,0 +1,472 @@
+$comment
+	File created using the following command:
+		vcd file shiyan3.msim.vcd -direction
+$end
+$date
+	Sun Nov 01 20:21:03 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Block1_vlg_vec_tst $end
+$var reg 1 ! en $end
+$var reg 3 " sel [2:0] $end
+$var reg 4 # win1 [3:0] $end
+$var reg 4 $ win2 [3:0] $end
+$var wire 1 % a $end
+$var wire 1 & b $end
+$var wire 1 ' c $end
+$var wire 1 ( d $end
+$var wire 1 ) e $end
+$var wire 1 * f $end
+$var wire 1 + g $end
+$var wire 1 , yinji $end
+$var wire 1 - sampler $end
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var tri1 1 1 devclrn $end
+$var tri1 1 2 devpor $end
+$var tri1 1 3 devoe $end
+$var wire 1 4 inst|Mux3~0_combout $end
+$var wire 1 5 inst|Mux3~1_combout $end
+$var wire 1 6 inst|Mux2~0_combout $end
+$var wire 1 7 inst|Mux1~0_combout $end
+$var wire 1 8 inst|Mux0~0_combout $end
+$var wire 1 9 win2[0]~input_o $end
+$var wire 1 : win1[0]~input_o $end
+$var wire 1 ; win1[1]~input_o $end
+$var wire 1 < win1[2]~input_o $end
+$var wire 1 = win2[3]~input_o $end
+$var wire 1 > win1[3]~input_o $end
+$var wire 1 ? ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 @ en~input_o $end
+$var wire 1 A sel[1]~input_o $end
+$var wire 1 B sel[2]~input_o $end
+$var wire 1 C inst|Mux3~2_combout $end
+$var wire 1 D win2[1]~input_o $end
+$var wire 1 E inst|Mux2~1_combout $end
+$var wire 1 F win2[2]~input_o $end
+$var wire 1 G inst|Mux1~1_combout $end
+$var wire 1 H sel[0]~input_o $end
+$var wire 1 I inst|Mux0~1_combout $end
+$var wire 1 J inst2|a~0_combout $end
+$var wire 1 K inst2|a~1_combout $end
+$var wire 1 L inst2|b~0_combout $end
+$var wire 1 M inst2|b~1_combout $end
+$var wire 1 N inst2|c~0_combout $end
+$var wire 1 O inst2|c~1_combout $end
+$var wire 1 P inst2|WideOr4~0_combout $end
+$var wire 1 Q inst2|WideOr4~1_combout $end
+$var wire 1 R inst2|WideOr6~0_combout $end
+$var wire 1 S inst2|WideOr6~1_combout $end
+$var wire 1 T inst2|WideOr8~0_combout $end
+$var wire 1 U inst2|WideOr8~1_combout $end
+$var wire 1 V inst2|WideOr10~0_combout $end
+$var wire 1 W inst2|WideOr10~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+b1001 #
+b1 $
+1%
+1&
+1'
+1(
+0)
+1*
+1+
+0,
+x-
+0.
+1/
+x0
+11
+12
+13
+04
+15
+06
+07
+18
+19
+1:
+0;
+0<
+0=
+1>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+1I
+0J
+0K
+0L
+0M
+1N
+1O
+0P
+0Q
+1R
+1S
+0T
+0U
+1V
+1W
+$end
+#60000
+b1 "
+1H
+0-
+1C
+08
+05
+14
+0I
+0R
+15
+0V
+1T
+1R
+1P
+1J
+0S
+1U
+1S
+1Q
+1K
+1)
+0W
+0*
+0)
+0(
+0%
+0+
+#120000
+b11 "
+b10 "
+0H
+1A
+1-
+0C
+18
+17
+04
+1G
+05
+1V
+0T
+0U
+1W
+1*
+1+
+#180000
+b11 "
+1H
+0-
+08
+07
+0G
+0V
+0R
+0P
+0J
+0S
+0Q
+0K
+0W
+1)
+1(
+1%
+0+
+#240000
+b111 "
+b101 "
+b100 "
+0H
+0A
+1B
+1-
+16
+15
+14
+1E
+1T
+1R
+1P
+1J
+1V
+0P
+0J
+1U
+1S
+1Q
+1K
+0Q
+0K
+0*
+0)
+0(
+0%
+1W
+1(
+1%
+1+
+#300000
+b101 "
+1H
+0-
+06
+04
+0E
+05
+0V
+0T
+0R
+0U
+0S
+0W
+1*
+1)
+0+
+#360000
+b111 "
+b110 "
+0H
+1A
+1-
+1I
+14
+1V
+15
+1R
+1W
+1S
+1+
+0)
+#420000
+b111 "
+1H
+0-
+0I
+0V
+1T
+1P
+1J
+1U
+1Q
+1K
+0W
+0*
+0(
+0%
+0+
+#480000
+b11 "
+b1 "
+b0 "
+0H
+0A
+0B
+1-
+18
+04
+1I
+1V
+0T
+0P
+0J
+0U
+0Q
+0K
+1W
+1*
+1(
+1%
+1+
+#540000
+b1 "
+1H
+0-
+1C
+08
+05
+14
+0I
+0R
+15
+0V
+1T
+1R
+1P
+1J
+0S
+1U
+1S
+1Q
+1K
+1)
+0W
+0*
+0)
+0(
+0%
+0+
+#600000
+b11 "
+b10 "
+0H
+1A
+1-
+0C
+18
+17
+04
+1G
+05
+1V
+0T
+0U
+1W
+1*
+1+
+#660000
+b11 "
+1H
+0-
+08
+07
+0G
+0V
+0R
+0P
+0J
+0S
+0Q
+0K
+0W
+1)
+1(
+1%
+0+
+#720000
+b111 "
+b101 "
+b100 "
+0H
+0A
+1B
+1-
+16
+15
+14
+1E
+1T
+1R
+1P
+1J
+1V
+0P
+0J
+1U
+1S
+1Q
+1K
+0Q
+0K
+0*
+0)
+0(
+0%
+1W
+1(
+1%
+1+
+#780000
+b101 "
+1H
+0-
+06
+04
+0E
+05
+0V
+0T
+0R
+0U
+0S
+0W
+1*
+1)
+0+
+#840000
+b111 "
+b110 "
+0H
+1A
+1-
+1I
+14
+1V
+15
+1R
+1W
+1S
+1+
+0)
+#900000
+b111 "
+1H
+0-
+0I
+0V
+1T
+1P
+1J
+1U
+1Q
+1K
+0W
+0*
+0(
+0%
+0+
+#960000
+b11 "
+b1 "
+b0 "
+0H
+0A
+0B
+1-
+18
+04
+1I
+1V
+0T
+0P
+0J
+0U
+0Q
+0K
+1W
+1*
+1(
+1%
+1+
+#1000000

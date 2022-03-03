@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\shu\shiyan6\liushuideng_0741_24\simulation\qsim
+vliushuideng_0741_24
+Z1 !s100 JPF_^I?EgY^kc]UZi2?l23
+Z2 I_;c>AUNLIU_L?V3JB1>0C0
+Z3 Vf:T=oS?:eVoHVgiNf3J_>2
+Z4 dC:\Users\Administrator\Desktop\shu\shiyan6\liushuideng_0741_24\simulation\qsim
+Z5 w1606125089
+Z6 8liushuideng_0741_24.vo
+Z7 Fliushuideng_0741_24.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|liushuideng_0741_24.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1606125089.927000
+Z12 !s107 liushuideng_0741_24.vo|
+!s101 -O0
+vliushuideng_0741_24_vlg_check_tst
+!i10b 1
+Z13 !s100 13Z3I;:;l19]h:7NJ=QDX0
+Z14 ImgPfI?`YYzM0lPFfL?GG42
+Z15 VgJTNKOiPhJMgeGJRf<Do22
+R4
+Z16 w1606125088
+Z17 8liushuideng_0741_24.vt
+Z18 Fliushuideng_0741_24.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1606125090.021000
+Z20 !s107 liushuideng_0741_24.vt|
+Z21 !s90 -work|work|liushuideng_0741_24.vt|
+!s101 -O0
+R10
+vliushuideng_0741_24_vlg_sample_tst
+!i10b 1
+Z22 !s100 <B7[f8<^D6>5YU5bS6XUF1
+Z23 I4N9mMiB]DV8[7U3n>64Vi3
+Z24 Vh6ZJdMSKc66XZ>TMVMj?V1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vliushuideng_0741_24_vlg_vec_tst
+!i10b 1
+Z25 !s100 S_AQ5dGfS5zMlab5McCjA3
+Z26 I_8c@eIe?>nJkYVK_GAN:Q0
+Z27 VBgKOCKEIXJ:`JH44Y42d93
+R4
+R16
+R17
+R18
+Z28 L0 277
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

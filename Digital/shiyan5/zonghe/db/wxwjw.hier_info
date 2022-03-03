@@ -1,0 +1,21 @@
+|wxwjw
+Qflipflop <= Dflipflopxingweiwxwjw:inst.Q
+CLK => Dflipflopxingweiwxwjw:inst.CLK
+D => Dflipflopxingweiwxwjw:inst.D
+D => Dlatchxingweiwxwjw:inst1.D
+Qlatch <= Dlatchxingweiwxwjw:inst1.Q
+EN => Dlatchxingweiwxwjw:inst1.EN
+
+
+|wxwjw|Dflipflopxingweiwxwjw:inst
+CLK => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|wxwjw|Dlatchxingweiwxwjw:inst1
+EN => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

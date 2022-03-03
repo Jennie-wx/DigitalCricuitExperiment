@@ -1,0 +1,28 @@
+module adderwxwjw(in1,in2,out,co,n_err);
+input [3:0]in1,in2;
+output [3:0] out;
+output co;
+reg [3:0] out;
+reg co;
+always @ (in1 or in2)
+begin
+if(in1>1001&&in1<=1111||in2>1001&&in2<=1111)
+ begin
+ out=4'b0000;
+ n_err=1;
+ end
+else 
+   out=in1+in2;
+   if(out>1001) 
+	begin
+	out=in1 +in2 +4'b0110;
+	co=1;
+	n_err=0;
+	end
+	else 
+	begin
+	{co,out}=in1+in2;
+	n_err=0;
+	end
+end
+endmodule;
